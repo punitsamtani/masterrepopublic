@@ -63,8 +63,8 @@ Feature: Belly
     |2|3| 
      And user request "request.call" with list:
     |a|
+    |1|
     |2|
-    |3|
         And user request "request.call" with data:
     |a|b|
     |a|x| 
