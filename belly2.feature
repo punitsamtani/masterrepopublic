@@ -29,8 +29,8 @@ Feature: Belly2
      Scenario: and few more cukes
      Given I have datatable:
     |cnt|time|recId|
-    |10 |2   |10 belly|
-    |20 |1   |20 belly|
+    |20 |2   |10 belly|
+    |30 |1   |20 belly|
     Given I have 10 cukes in my "${remote.server}"
     When I wait 1 hour
     Then my belly should growl
